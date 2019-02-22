@@ -1,0 +1,42 @@
+name: spotify_clone
+description: A UI Clone of Spotify.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pink_floyd.jpg
+    - assets/this_is_pink_floyd.jpg
+    - assets/this_is_post_malone.jpg
+    - assets/this_is_queen.jpg
+    - assets/stoney.jpg
+    - assets/hailee.jpg
+    - assets/queen_best_of.jpg
+    - assets/favourite.jpg
+    - assets/discover.jpg
+    - assets/time_capsule.jpg
+    - assets/bohemian.jpg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
